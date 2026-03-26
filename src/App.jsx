@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from '../components/Navbar';
+import NavBar from './components/NavBar';
 import HomePage from './pages/HomePage';
 import AddGamePage from './pages/AddGamePage';
 import './App.css';
@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <Navbar />
+      <NavBar />
       <main style={{ padding: '20px' }}>
         <Routes>
           <Route path="/" element={<HomePage />} />

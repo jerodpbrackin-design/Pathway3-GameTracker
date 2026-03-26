@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { createGame } from "../services/gamesService";
+import { createGame } from "../services/gameService";
 import GameForm from "../components/GameForm";
 
 const AddGamePage = () => {
