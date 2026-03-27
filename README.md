@@ -1,18 +1,18 @@
-# React + Vite
+# GameTracker 🎮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React web application to register and display your favorite video games, built with Vite and integrated with Supabase.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- **My Games Page**: View your full collection of games retrieved from Supabase.
+- **Add Game Page**: Form to save new games with title, genre, and rating (1-5).
+- **Delete Functionality**: Remove games directly from the library.
+- **Responsive Navigation**: Easy switching between views using React Router DOM.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Setup Instructions
 
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository**
+   ```bash
+   git clone <your-repo-url>
+   cd gametracker
+2. Run npm install in the root directory
+3. Type npm run dev to run the file 

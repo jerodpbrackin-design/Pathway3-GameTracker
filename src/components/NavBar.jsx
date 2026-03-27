@@ -3,7 +3,7 @@ import "./NavBar.css";
 
 const Navbar = () => {
   return (
-    <nav classname="nav">
+    <nav className="nav">
       <div className="logo">
         <Link to="/" className="logoLink">
           GameTracker 🎮
