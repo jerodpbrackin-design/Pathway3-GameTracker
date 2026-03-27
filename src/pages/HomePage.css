@@ -1,0 +1,14 @@
+.game-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin: 70px;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2fc115;
+}
